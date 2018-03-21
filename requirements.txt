@@ -11,7 +11,7 @@ pep8-naming
 scipy
 numpy
 matplotlib
-pandas
+pandas==0.20.3
 seaborn
 networkx
 tables
@@ -20,8 +20,12 @@ tables
 # uncomment the following if you want to use the github version. If you are still editing the
 # library, you can point pip to your local copy, for example: 
 #   pip install -e /home/orenled/Dropbox/code/openbadge-analysis --upgrade  
-#git+git://github.com/HumanDynamics/openbadge-analysis.git
+git+git://github.com/HumanDynamics/openbadge-analysis.git
 
 # calling R from Python
 rpy2<2.9.0
 
+jupyter
+
+# requirements for openbadge lib
+crc16
