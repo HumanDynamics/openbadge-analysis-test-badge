@@ -15,6 +15,7 @@ pandas==0.20.3
 seaborn
 networkx
 tables
+sklearn
 
 # for data analysis
 # uncomment the following if you want to use the github version. If you are still editing the
